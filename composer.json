@@ -1,0 +1,47 @@
+{
+    "name": "phergie/phergie-irc-plugin-react-beer",
+    "description": "Phergie plugin for Drink all the beers!",
+    "keywords": [ "phergie", "irc", "bot", "plugin" ],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Michelle Sanver",
+            "email": "hello@michellesanver.com",
+            "homepage": "http://twitter.com/michellesanver",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "hello@michellesanver.com",
+        "irc": "irc://irc.freenode.net/phergie",
+        "issues": "https://github.com/michellesanver/phergie-irc-plugin-BEER/issues",
+        "source": "https://github.com/michellesanver/phergie-irc-plugin-BEER"
+    },
+    "require": {
+        "phergie/phergie-irc-bot-react": "~1",
+        "phergie/phergie-irc-plugin-react-command": "~1.0"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*",
+        "phake/phake": "2.0.0-beta2"
+    },
+    "suggest": {
+        "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phergie\\Irc\\Plugin\\React\\Beer\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phergie\\Irc\\Tests\\Plugin\\React\\Beer\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
